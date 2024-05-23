@@ -10,10 +10,10 @@ public class MMS implements Mensaje {
 	/**
 	 * Constructor.
 	 *
-	 * @param numRemit   el número del remitente
-	 * @param numDest    el número del destinatario
+	 * @param numRemit   el numero del remitente
+	 * @param numDest    el numero del destinatario
 	 * @param ficheroImg el nombre del archivo de imagen
-	 * @param tamanioImg el tamaño de la imagen
+	 * @param tamanioImg el tamanno de la imagen
 	 */
 	public MMS(String numRemit, String numDest, String ficheroImg, float tamanioImg) {
 		this.numRemit = numRemit;
@@ -23,18 +23,18 @@ public class MMS implements Mensaje {
 	}
 
 	/**
-	 * Fija el número del remitente.
+	 * Fija el numero del remitente.
 	 *
-	 * @param numRemit el número del remitente
+	 * @param numRemit el numero del remitente
 	 */
 	public void setNumRemit(String numRemit) {
 		this.numRemit = numRemit;
 	}
 
 	/**
-	 * Fija el número del destinatario.
+	 * Fija el numero del destinatario.
 	 *
-	 * @param numDest el número del destinatario
+	 * @param numDest el numero del destinatario
 	 */
 	public void setNumDest(String numDest) {
 		this.numDest = numDest;
@@ -50,18 +50,18 @@ public class MMS implements Mensaje {
 	}
 
 	/**
-	 * Fija el tamaño de la imagen.
+	 * Fija el tamanno de la imagen.
 	 *
-	 * @param tamanioImg el tamaño de la imagen
+	 * @param tamanioImg el tamanno de la imagen
 	 */
 	public void setTamanioImg(float tamanioImg) {
 		this.tamanioImg = tamanioImg;
 	}
 
 	/**
-	 * Obtiene el número del remitente.
+	 * Obtiene el numero del remitente.
 	 *
-	 * @return el número del remitente
+	 * @return el numero del remitente
 	 */
 	@Override
 	public String getNumRemit() {
@@ -69,9 +69,9 @@ public class MMS implements Mensaje {
 	}
 
 	/**
-	 * Obtiene el número del destinatario.
+	 * Obtiene el numero del destinatario.
 	 *
-	 * @return el número del destinatario
+	 * @return el numero del destinatario
 	 */
 	@Override
 	public String getNumDest() {
@@ -88,9 +88,9 @@ public class MMS implements Mensaje {
 	}
 
 	/**
-	 * Obtiene el tamaño de la imagen.
+	 * Obtiene el tamanno de la imagen.
 	 *
-	 * @return el tamaño de la imagen
+	 * @return el tamanno de la imagen
 	 */
 	public float getTamanioImg() {
 		return tamanioImg;

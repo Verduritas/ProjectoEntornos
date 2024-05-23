@@ -3,16 +3,16 @@
  */
 public interface Mensaje {
     /**
-     * Obtiene el número del emisor.
+     * Obtiene el numero del emisor.
      *
-     * @return el número del emisor.
+     * @return el numero del emisor.
      */
     String getNumRemit();
 
     /**
-     * Obtiene el número del receptor.
+     * Obtiene el numero del receptor.
      *
-     * @return el número del receptor.
+     * @return el numero del receptor.
      */
     String getNumDest();
 }
